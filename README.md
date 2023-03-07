@@ -2,7 +2,9 @@
 	🚧  🚀 Em construção...  🚧
 </h4>
 
-# Frontend Mentor - Social media dashboard with theme switcher
+## Frontend Mentor - Social media dashboard with theme switcher
+
+### Design preview
 
 ![Design preview for the Social media dashboard with theme switcher coding challenge](./assets/design/desktop-preview.jpg)
 

@@ -1,9 +1,12 @@
 <h4 align="center"> 
-	🚧  React Select 🚀 Em construção...  🚧
+	🚧  🚀 Em construção...  🚧
 </h4>
-# Frontend Mentor - Social media dashboard with theme switcher
 
-![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)
+## Frontend Mentor - Social media dashboard with theme switcher
+
+### Design preview
+
+![Design preview for the Social media dashboard with theme switcher coding challenge](./assets/design/desktop-preview.jpg)
 
 
 ## Table of contents

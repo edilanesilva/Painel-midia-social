@@ -11,7 +11,6 @@
     /* dark theme */
 
     --toggle-dark:linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
-    --toggle-light: hsl(230, 22%, 74%);
     --dark-blue-bg:hsl(230, 17%, 14%);
     --dark-blue-topbg:hsl(232, 19%, 15%);
     --dark-blue-cardbg: hsl(228, 28%, 20%);
@@ -19,6 +18,7 @@
     --white-text: hsl(0, 0%, 100%);
 
     /* Light Theme */
+    --toggle-light: hsl(230, 22%, 74%);
     --white-bg: hsl(0, 0%, 100%);
     --veryPaleBlue-topbg:hsl(225, 100%, 98%);
     --lightGrayishBlue-cardbg:hsl(227, 47%, 96%);
@@ -29,4 +29,98 @@
 body{
     font-size: 16px;
     font-family:'Inter', Arial,  sans-serif ;
+    line-height: 1.5;
+    background-color: var(--dark-blue-bg);
+}
+
+.container{
+    max-width: 1440px;
+    margin: auto;
+
+}
+header{
+    background-color:var(--dark-blue-topbg);
+    color: var(--white-text);
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+    font-weight: 700;
+}
+
+
+.box-cards{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr) ;
+    grid-gap: 40px;
+    padding: 1em 0;
+    color: var(--blue-text);
+}
+
+.card-followers{
+    background-color: var(--dark-blue-cardbg);
+    border-radius: 8px;
+    padding: 3em 0;
+    text-align: center;
+}
+.card-followers:nth-child(1){
+    grid-column: 1 / span 3;
+}
+
+.card-followers:nth-child(2){
+    grid-column: 4 / span 3;
+}
+.card-followers:nth-child(3){
+    grid-column: 7 / span 3 ;
+}
+
+.card-followers:nth-child(4){
+    grid-column:  10/ span 3;
+}
+
+.card-followers span{
+    display: inline-block;
+    margin-left: 2px;
+    padding-bottom: 5px;
+}
+
+.followers-amount{
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--white-text);
+    padding-top: 0.65rem;
+}
+
+.followers-text{
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.followers-today{
+    color: var(--lime-green);
+    font-weight: 600;
+}
+
+/* section 2 */
+
+.title-overview{
+    color: var(--white-text);
+    font-weight: 700;
+     font-size: 30px; 
+    grid-column:  1 / span 12;
+}
+
+.card-overview{
+    background-color: var(--dark-blue-cardbg);
+    border-radius: 8px;
+
+}
+
+.card-overview:nth-child(1){
+    grid-column: 1 / span 3;
+    
+
 }

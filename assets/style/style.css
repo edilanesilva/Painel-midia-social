@@ -5,12 +5,12 @@
     --bright-red: hsl(356, 69%, 56%);
     --face-color: hsl(208, 92%, 53%);
     --twitter-color:hsl(203, 89%, 53%);
-    --instagram-color:linear gradient hsl(37, 97%, 70%) to hsl(329, 70%, 58%);
+    --instagram-color:linear-gradient(to right hsl(37, 97%, 70%),hsl(329, 70%, 58%));
     --youtube-color:hsl(348, 97%, 39%);
 
     /* dark theme */
 
-    --toggle-dark:linear gradient hsl(210, 78%, 56%) to hsl(146, 68%, 55%);
+    --toggle-dark:linear-gradient(hsl(210, 78%, 56%), hsl(146, 68%, 55%));
     --dark-blue-bg:hsl(230, 17%, 14%);
     --dark-blue-topbg:hsl(232, 19%, 15%);
     --dark-blue-cardbg: hsl(228, 28%, 20%);
@@ -33,14 +33,14 @@ body{
     background-color: var(--dark-blue-bg);
 }
 
-.container{
-    max-width: 1440px;
+ .container{
+    max-width: 1440px; 
     margin: auto;
 
-}
+} 
 header{
     background-color:var(--dark-blue-topbg);
-    color: var(--white-text);
+    
 
 }
 .header{
@@ -48,8 +48,55 @@ header{
     justify-content: space-between;
     padding: 2em 0;
     font-weight: 700;
+    color: var(--blue-text);
+}
+.header h1{
+    color: var(--white-text);
+
+}
+ /* toggle */
+
+ .toggle-wrapper{
+    display: flex;
+   
+ }
+ .toggle-wrapper label{
+    cursor: pointer;
+    margin-left: 1em;
+
+ }
+.slider{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border: 2px solid #bbb ;
+    border-radius: 20px;
+    background: var(--toggle-light);
 }
 
+.button{
+    background-color:var(--white-bg);
+    border: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    pointer-events: none;
+    left: 2px;
+    top: 1px;
+    position: absolute;
+}
+
+.toggle-input:checked ~ .slider{
+    background: var(--toggle-dark);
+}
+.toggle-input:checked ~ .slider > .button{
+    background: var(--dark-blue-cardbg);
+    left: 20px;
+}
+.toggle-input{
+    display: none;
+}
+/* fim header */
 
 .box-cards{
     display: grid;
@@ -65,19 +112,39 @@ header{
     padding: 3em 0;
     text-align: center;
 }
-.card-followers:nth-child(1){
+.card-followers:hover{
+    cursor: pointer;
+
+}
+
+.card-followers:nth-child(1), .card-over1, .card-over5{
     grid-column: 1 / span 3;
 }
 
-.card-followers:nth-child(2){
+.card-followers:nth-child(2), .card-over2, .card-over6{
     grid-column: 4 / span 3;
 }
-.card-followers:nth-child(3){
+.card-followers:nth-child(3), .card-over3, .card-over7{
     grid-column: 7 / span 3 ;
 }
 
-.card-followers:nth-child(4){
+.card-followers:nth-child(4), .card-over4, .card-over8{
     grid-column:  10/ span 3;
+}
+
+.card-facebook{
+    border-top: 5px solid var(--face-color);
+}
+
+.card-twitter{
+    border-top: 5px solid var(--twitter-color);
+}
+.card-instagram{
+    border-top: 5px solid hsl(329, 70%, 58%);
+}
+
+.card-youtube{
+    border-top: 5px solid var(--youtube-color); 
 }
 
 .card-followers span{
@@ -110,17 +177,36 @@ header{
     color: var(--white-text);
     font-weight: 700;
      font-size: 30px; 
-    grid-column:  1 / span 12;
+     grid-column:  1 / span 12; 
 }
 
 .card-overview{
     background-color: var(--dark-blue-cardbg);
     border-radius: 8px;
-
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
 }
 
-.card-overview:nth-child(1){
-    grid-column: 1 / span 3;
+.overview-amount{
+    font-size: 35px;
+    color: var(--white-text);
+    font-weight: 700;
+    padding-top: 0.65em;
+  
+
+}
+.overview-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.overview-social figure{
+    align-self: center;
+}
+
+
+    
     
 
-}

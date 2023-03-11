@@ -22,13 +22,23 @@
 					<h1>Social Media Dashboard</h1>
 					<p>Total Followers: 23,004</p>
 				</div>
-				<p>Dark Mode</p>
+				
+				<div class="toggle-wrapper">
+					<span>Dark Mode</span>
+					<label>
+						<input type="checkbox" class="toggle-input">
+						<div class="slider">
+							<button class="button"></button>
+						</div>
+					</label>
+				</div>
+				
 			</div>
 		</header>
 
 		<main>
 			<section class="container box-cards">
-				<div class="card-followers">
+				<div class="card-followers card-facebook">
 					<img src="assets/images/icon-facebook.svg" alt="facebook" />
 					<span>@nathanf</span>
 					<p class="followers-amount">1987</p>
@@ -38,9 +48,11 @@
 					</p>
 				</div>
 
-				<div class="card-followers">
-					<img src="assets/images/icon-twitter.svg" alt="twitter" />
-					<span>@nathanf</span>
+				<div class="card-followers card-twitter">
+					
+						<img src="assets/images/icon-twitter.svg" alt="twitter" />
+						<span>@nathanf</span>
+					
 					<p class="followers-amount">1044</p>
 					<p class="followers-text">Followers</p>
 					<p class="followers-today">
@@ -48,7 +60,7 @@
 					</p>
 				</div>
 
-				<div class="card-followers">
+				<div class="card-followers card-instagram">
 					<img
 						src="assets/images/icon-instagram.svg"
 						alt="instagram"
@@ -61,7 +73,7 @@
 					</p>
 				</div>
 
-				<div class="card-followers">
+				<div class="card-followers card-youtube">
 					<img src="assets/images/icon-youtube.svg" alt="youtube" />
 					<span>Nathan F.</span>
 					<p class="followers-amount">8239</p>
@@ -74,61 +86,110 @@
 
 			<section class="container box-cards">
 				<h2 class="title-overview">Overview - Today</h2>
-				<div class="card-overview">
-					<h3>Page Views</h3>
-					<p>87</p>
-					<p>3%</p>
+				<div class="card-overview card-over1">
+					<div>
+						<h3>Page Views</h3>
+						<p class="overview-amount">87</p>
+					</div>
+					<div class="overview-social">
+						<figure>
+							<img src="assets/images/icon-facebook.svg" alt="facebook">
+						</figure>
+						
+						<p> <img src="assets/images/icon-up.svg" alt=""> 3%</p>
+					</div>
 				</div>
-				<div class="card-overview">
-					<h3>Likes</h3>
-					<p>52</p>
-					<p>2%</p>
-        </div >
-				<div class="card-overview">
-					<h3>Likes</h3>
-					<p>5462</p>
-					<p>2257%</p>
-        </div>
+				<div class="card-overview card-over2">
+					<div>
+						<h3>Likes</h3>
+						<p class="overview-amount">52</p>
+					</div>
+					<div class="overview-social">
+						<figure>
+							<img src="assets/images/icon-facebook.svg" alt="facebook"></figure>
 
-				<div class="card-overview">
-					<h3>Profile Views</h3>
-					<p>52k</p>
-					<p>1375%</p>
+						<p >
+							<img src="assets/images/icon-down.svg" alt=""> 2%
+						</p>
+					</div>
+        		</div >
+				<div class="card-overview card-over3">
+					<div>
+						<h3>Likes</h3>
+						<p class="overview-amount">5462</p>
+					</div>
+					<div class="overview-social">
+						<figure><img src="assets/images/icon-instagram.svg" alt="instagram"></figure>
+						<p><img src="assets/images/icon-up.svg" alt="icon"> 2257%</p>
+					</div>
+					
+        		</div>
+
+				<div class="card-overview card-over4">
+					<div>
+						<h3>Profile Views</h3>
+						<p class="overview-amount">52k</p>
+					</div>
+					
+					<div class="overview-social">
+						<figure><img src="assets/images/icon-instagram.svg" alt="instagram"></figure>
+						<p><img src="assets/images/icon-up.svg" alt=""> 1375%</p>
+					</div>
 				</div>
 
-				<div class="card-overview">
-					<h3>Retweets</h3>
-					<p>117</p>
-					<p>303%</p>
-      </div>
+				<div class="card-overview card-over5">
+					<div >
+						<h3>Retweets</h3>
+						<p class="overview-amount">117</p>
+					</div>
+					<div class="overview-social">
+					<figure>
+					<img src="assets/images/icon-twitter.svg" alt="twitter">
+					</figure>
+					<p> <img src="assets/images/icon-up.svg" alt="">303%</p>
+					</div>
+      			</div>
 
-				<div class="card-overview">
-					<h3>Likes</h3>
-					<p>507</p>
-					<p>553%</p>
-        </div>
+				<div class="card-overview card-over6">
+					<div>
+						<h3>Likes</h3>
+						<p class="overview-amount">507</p>
+					</div>
+					<div class="overview-social">
+						
+						<figure><img src="assets/images/icon-twitter.svg" alt=""></figure>
+						<p> <img src="assets/images/icon-up.svg" alt="">553%</p>
 
-				<div class="card-overview">
-					<h3>Likes</h3>
-					<p>107</p>
-					<p>19%</p>
-        </div>
+					</div>
+					
+        		</div>
 
-				<div class="card-overview">
-					<h3>Total Views</h3>
-					<p>1407</p>
-					<p>12%</p>
+				<div class="card-overview card-over7">
+					<div>
+						<h3>Likes</h3>
+						<p class="overview-amount">107</p>
+					</div>
+					<div class="overview-social">
+						<figure>
+						<img src="assets/images/icon-youtube.svg" alt=""></figure>
+						<p> <img src="assets/images/icon-down.svg" alt="">19%</p>
+					</div>
+					
+        		</div>
+
+				<div class="card-overview card-over8">
+					<div>
+						<h3>Total Views</h3>
+					<p class="overview-amount">1407</p>
+					</div>
+					<div class="overview-social">
+						<figure><img src="assets/images/icon-youtube.svg" alt=""></figure>
+						<p> <img src="assets/images/icon-down.svg" alt="">12%</p>
+					</div>
 				</div>
 			</section>
 		</main>
 
-		<div class="container attribution">
-			Challenge by
-			<a
-				href="https://www.frontendmentor.io?ref=challenge"
-				target="_blank"
-				>Frontend Mentor</a
-			>. Coded by <a href="#">Your Name Here</a>.
-		</div>
+		
 	</body>
 </html>

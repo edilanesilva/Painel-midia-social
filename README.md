@@ -20,7 +20,7 @@ Users should be able to:
 
 ## links
 
--   [GitHub Pages](https://pages.github.com/)
+-   [GitHub Pages](https://edilanesilva.github.io/Painel-midia-social/)
 
 ### Built with
 

@@ -6,7 +6,7 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Links](#links)
   - [Built with](#screenshot)
   - [Screenshot](#screenshot)
   
@@ -18,7 +18,7 @@ Users should be able to:
 - [x] View the optimal layout for the site depending on their device's screen size
 - [ ] Toggle color theme to their preference
 
-## Deploying your project
+## links
 
 -   [GitHub Pages](https://pages.github.com/)
 
@@ -30,6 +30,9 @@ Users should be able to:
 -   desktop-first workflow
 
 ## Screenshot
+
+![](/desktop-screenshot.PNG)
+![](/mobile-screenshot.PNG)
 
 
 

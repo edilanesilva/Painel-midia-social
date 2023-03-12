@@ -1,18 +1,14 @@
-<h4 align="center"> 
-	🚧  🚀 Em construção...  🚧
-</h4>
+<h4 align="center"></h4>
 
-## Frontend Mentor - Social media dashboard with theme switcher
-
-### Design preview
-
-![Design preview for the Social media dashboard with theme switcher coding challenge](./assets/design/desktop-preview.jpg)
-
+## Frontend Mentor - Social media dashboard
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Built with](#screenshot)
+  - [Screenshot](#screenshot)
   
 
   ### The challenge
@@ -22,5 +18,19 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Toggle color theme to their preference
+
+## Deploying your project
+
+-   [GitHub Pages](https://pages.github.com/)
+
+### Built with
+
+-   Semantic HTML5 markup
+-   CSS custom properties
+-   Flexbox
+-   desktop-first workflow
+
+### Screenshot
+
 
 

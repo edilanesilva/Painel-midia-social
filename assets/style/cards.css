@@ -1,0 +1,60 @@
+.social{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 25px;
+    margin-top: 45px;
+}
+
+.card{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background-color:var(--dark-blue-cardbg);
+    padding: 25px;
+    box-sizing: border-box;
+    text-align: center;  
+}
+
+.social__user{
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social__user img{
+    margin-right: 10px;
+}
+
+.social__followers{
+    margin: 25px auto;
+      line-height: 1.2;
+}
+
+.followers-number{
+    display: block;
+    font-size: 60px;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+}
+
+.followers-text{
+    font-size: 12px;
+    letter-spacing: 6px;
+  
+}
+
+.social__change{
+    color: var(--lime-green);
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.social--negative{
+    color: var(--bright-red);
+}

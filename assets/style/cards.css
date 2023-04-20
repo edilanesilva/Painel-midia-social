@@ -51,10 +51,12 @@
     font-weight: 700;
     font-size: 12px;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
 }
-
+.social__change img{
+    margin: 0 5px;
+}
 .social--negative{
     color: var(--bright-red);
 }

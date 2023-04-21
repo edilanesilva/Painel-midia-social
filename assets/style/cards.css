@@ -14,7 +14,9 @@
     padding: 25px;
     box-sizing: border-box;
     text-align: center;  
+    position: relative;
 }
+
 
 .social__user{
     font-weight: 700;
@@ -60,3 +62,34 @@
 .social--negative{
     color: var(--bright-red);
 }
+
+/* cor borda */
+.card::before{
+    content: "";
+    width: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 4px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+}
+
+.social__facebook::before{
+    background-color:var(--face-color);
+}
+
+.social__twitter::before{
+    background-color: var(--twitter-color);
+}
+
+.social__instagram::before{
+    background: var(--instagram-color);
+} 
+
+.social__youtube::before{
+    background: var(--youtube-color);
+}
+

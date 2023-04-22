@@ -14,8 +14,8 @@
   - [Demonstração](#demonstração)
 - [Meu processo](#meu-processo)
   - [Construído](#construído-com)
-  - [Aprendizado](#o-que-aprendi)
-  - [Desenvolvimento contínuo](#desenvolvimento-contínuo)
+  - [Aprendizado](#aprendizado)
+  - [Referências](#referências)
   - [Author](#author)
   
 ## Visão geral
@@ -23,13 +23,13 @@
 ### Descrição
 > 
   Esta é uma solução  [Painel de mídia social](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H) Frontend Mentor que ajudam você a melhorar suas habilidades de codificação criando projetos realistas.</br>
-  O mesmo consiste em uma visão ampla e organizada de todas as interações nas redes sociais. O objetivo de realizar este projeto foi de praticar arquitetura css com BEM, Atomic Design e lógica de programação.
+  O mesmo consiste em uma visão ampla e organizada de todas as interações nas redes sociais. O objetivo de realizar este projeto foi de praticar metodologia BEM, arquitetura css Atomic Design e lógica de programação.
 >
 
 ### O desafio
 
 - [ ] Layout ideal para o site, dependendo do tamanho da tela do dispositivo
-- [ ] Alternar o tema de cores
+- [ ] Alternar tema de cores
 - [ ] Estados de foco para todos os elementos interativos na página
 
 ### Captura de tela
@@ -52,6 +52,8 @@
 -   desktop-first workflow
 
 ### Aprendizado
+
+### Referências
 
 ## Author
 [Edilane Silva](https://www.linkedin.com/in/edilane-silva/)

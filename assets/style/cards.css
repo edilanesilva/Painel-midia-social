@@ -93,3 +93,46 @@
     background: var(--youtube-color);
 }
 
+/* card-bottom */
+.cards-bottom{
+    margin-top: 50px;
+    
+}
+.cards-bottom__title{
+    grid-column: 1 / span 4;
+    color: var( --white-text);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0.65em;
+}
+
+.social--columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social__column{
+    display: grid;
+    gap: 1.65em;   
+}
+
+.social__overview-page{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.social__overview-number{
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--white-bg);
+    text-align: left;
+}
+
+.attribution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6em 0;
+    font-size: 11px;
+
+}

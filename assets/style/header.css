@@ -55,6 +55,7 @@
   top: 0;
   margin: 0;
   opacity: 0;
+  cursor: pointer;
 }
 
 .toggle__button {
@@ -75,6 +76,7 @@
     display: inline-block;
     padding: 3px;
     box-sizing: border-box;
+   
 }
 
 .toggle__button:after{
@@ -83,8 +85,7 @@
     height: 20px;
     border-radius: 20px;
     background-color: var(--veryDarkBlue-text);
-    display: block;
-    
+    display: block;  
    
 }
 
@@ -97,4 +98,26 @@
  .toggle__button::after  {
     margin-left: auto;
     background-color: var(--white-bg)
+}
+
+
+@media only screen and (max-width: 400px) {
+    .header{
+        flex-direction: column;
+        gap:20px;
+        margin-left: 1.65em;
+        margin-right: 1.65em;
+    }
+
+    .header__left {
+        border-bottom: 1px solid var(--dark-blue-cardbg);
+        padding-bottom: 20px;
+    }
+
+    .header__right{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
 }

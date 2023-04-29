@@ -141,3 +141,19 @@
     font-size: 11px;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .social{
+        margin: 1.65em;
+    }
+    .card{
+        grid-column: 1/span 4;
+              
+    }
+
+    .attribution{
+        display: none;
+    }
+
+}
+

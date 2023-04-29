@@ -17,6 +17,11 @@
     position: relative;
 }
 
+.card:hover{
+    cursor: pointer;
+    -webkit-filter: brightness(140%);
+    filter: brightness(140%);
+}
 
 .social__user{
     font-weight: 700;

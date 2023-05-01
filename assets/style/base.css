@@ -22,7 +22,7 @@
 
     --white-bg: hsl(0, 0%, 100%);
     --veryPaleBlue-topbg:hsl(225, 100%, 98%);
-    --lightGrayishBlue-cardbg:hsl(227, 47%, 96%);
+    --cardbg:hsl(227, 47%, 96%);
     --darkGrayishBlue-text:hsl(228, 12%, 44%);
     --veryDarkBlue-text:hsl(230, 17%, 14%);
 }

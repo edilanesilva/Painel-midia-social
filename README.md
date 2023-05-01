@@ -28,9 +28,10 @@
 
 ### O desafio
 
-- [ ] Layout ideal para o site, dependendo do tamanho da tela do dispositivo
+- [x] Layout ideal para o site, dependendo do tamanho da tela do dispositivo
+- [x] Estados de foco para todos os elementos interativos 
 - [ ] Alternar tema de cores
-- [ ] Estados de foco para todos os elementos interativos na página
+na página
 
 ### Captura de tela
 
@@ -54,7 +55,7 @@
 ### Aprendizado
 
 ### Referências
-
+[w3schools](https://www.w3schools.com/)
 ## Author
 [Edilane Silva](https://www.linkedin.com/in/edilane-silva/)
 

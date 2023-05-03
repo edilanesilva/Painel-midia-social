@@ -18,8 +18,8 @@
 
 ### Descrição
 
-> Esta é uma solução  [Painel de mídia social](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H) Frontend Mentor que ajudam você a melhorar suas habilidades de codificação criando projetos realistas.</br>
-> O mesmo consiste em uma visão ampla e organizada de todas as interações nas redes sociais. O objetivo de realizar este projeto foi de praticar metodologia BEM, arquitetura css Atomic Design e lógica de programação.
+Esta é uma solução  [Painel de mídia social](https://www.frontendmentor.io/challenges/social-media-dashboard-with-theme-switcher-6oY8ozp_H) Frontend Mentor que ajudam você a melhorar suas habilidades de codificação criando projetos realistas.</br>
+O mesmo consiste em uma visão ampla e organizada de todas as interações nas redes sociais. O objetivo de realizar este projeto foi de praticar metodologia BEM, arquitetura css Atomic Design e lógica de programação.
 
 
 ### O desafio
@@ -82,5 +82,5 @@ const getStyle = (element, style) =>
 
 ## Lincença
 
-> Esse repositório está licenciado pela MIT LICENSE. Para mais informações detalhadas, leia o arquivo LICENSE contido nesse repositório.
+ Esse repositório está licenciado pela MIT LICENSE. Para mais informações detalhadas, leia o arquivo LICENSE contido nesse repositório.
 

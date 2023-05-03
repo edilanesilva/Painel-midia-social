@@ -6,7 +6,7 @@
     margin-top: 45px;
 }
 
-.card{
+ .card{
     width: 100%;
     height: auto;
     border-radius: 8px;
@@ -15,12 +15,11 @@
     box-sizing: border-box;
     text-align: center;  
     position: relative;
-}
+} 
 
 .card:hover{
     cursor: pointer;
-    -webkit-filter: brightness(140%);
-    filter: brightness(140%);
+    
 }
 
 .social__user{

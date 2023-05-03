@@ -17,14 +17,17 @@
     --dark-blue-cardbg: hsl(228, 28%, 20%);
     --blue-text: hsl(228, 34%, 66%);
     --white-text: hsl(0, 0%, 100%);
+    --dark-selected:#333a56;
 
     /* light theme */
 
     --white-bg: hsl(0, 0%, 100%);
-    --veryPaleBlue-topbg:hsl(225, 100%, 98%);
+    --top-header-bg:hsl(225, 100%, 98%);
     --cardbg:hsl(227, 47%, 96%);
     --darkGrayishBlue-text:hsl(228, 12%, 44%);
     --veryDarkBlue-text:hsl(230, 17%, 14%);
+    --light-selected:#e1e3f0;
+   
 }
 
 body{

@@ -36,7 +36,7 @@ O mesmo consiste em uma visão ampla e organizada de todas as interações nas r
 
 ## links
 
-- [Deploy]()
+- [Deploy](https://edilanesilva.github.io/Painel-midia-social/)
 
 ## Meu processo
 
